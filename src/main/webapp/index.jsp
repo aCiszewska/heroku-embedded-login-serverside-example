@@ -9,21 +9,21 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 	
-    <meta name="salesforce-community" content="https://<%= System.getenv("SALESFORCE_COMMUNITY_URL") %>">
-    <meta name="salesforce-client-id" content="<%= System.getenv("SALESFORCE_CLIENT_ID") %>">
-    <meta name="salesforce-redirect-uri" content="https://<%= System.getenv("SALESFORCE_HEROKUAPP_URL") %>/_callback">
+    <meta name="salesforce-community" content="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers">
+    <meta name="salesforce-client-id" content="3MVG9t0sl2P.pByoe6WCijsMBjemkDzOofVQiX8Ac0uHa4.iTP.QOIZruxOmU4U7RwzmRB_6LLZa8KMMFXZbT">
+    <meta name="salesforce-redirect-uri" content="https://mojaembeddedlogin.herokuapp.com/_callback">
     <meta name="salesforce-mode" content="modal">
     <meta name="salesforce-server-callback" content="true">
     <meta name="salesforce-namespace" content="">
     <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
-    <meta name="salesforce-forgot-password-enabled" content="<%= System.getenv("SALESFORCE_FORGOT_PASSWORD_ENABLED") %>">
-    <meta name="salesforce-self-register-enabled" content="<%= System.getenv("SALESFORCE_SELF_REGISTER_ENABLED") %>">
+    <meta name="salesforce-forgot-password-enabled" content="true">
+    <meta name="salesforce-self-register-enabled" content="true">
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="false">"
-	<link href="https://<%= System.getenv("SALESFORCE_COMMUNITY_URL") %>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
-    <script src="https://<%= System.getenv("SALESFORCE_COMMUNITY_URL") %>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+	<link href="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
+    <script src="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
   
   <body>
