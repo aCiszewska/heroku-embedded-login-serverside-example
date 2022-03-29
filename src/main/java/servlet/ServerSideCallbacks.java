@@ -109,7 +109,7 @@ public class ServerSideCallbacks extends HttpServlet{
         String outputStr =  "<html><head>\n" +
                 "<meta name=\"salesforce-community\" content=\""+ communityUrl +"\">\n" +
 //                "<meta name=\"salesforce-mode\" content=\""+ request.getParameter("mode") +"-callback\">\n" +
-				"<meta name=\"salesforce-mode\" content=\"" + "modal" + "-callback\">\n" +
+				"<meta name=\"salesforce-mode\" content=\"" + "inline" + "-callback\">\n" +
                 "<meta name=\"salesforce-server-callback\" content=\"true\">\n" +
                 "<meta name=\"salesforce-server-response\" content='" + 
                 Base64.getEncoder().encodeToString(identityJSON.toString().getBytes(StandardCharsets.UTF_8))+"'>\n" +
