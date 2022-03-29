@@ -27,10 +27,10 @@ import java.util.Base64;
 public class ServerSideCallbacks extends HttpServlet{
 
 // Client ID
-    private static final String CLIENT_ID = System.getenv("SALESFORCE_CLIENT_ID");
+    private static final String CLIENT_ID = "3MVG9t0sl2P.pByoe6WCijsMBjemkDzOofVQiX8Ac0uHa4.iTP.QOIZruxOmU4U7RwzmRB_6LLZa8KMMFXZbT";
 
 // client secret
-    private static final String CLIENT_SECRET = System.getenv("SALESFORCE_CLIENT_SECRET");
+    private static final String CLIENT_SECRET = "F659DB4B1942D7014A569C9280C3D146432A73DBAF1B205FDF4FB62E43DD8E16";
     
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -42,7 +42,7 @@ public class ServerSideCallbacks extends HttpServlet{
         ServletException, IOException {
 
     		System.setProperty("javax.net.ssl.trustStore",".jdk/jre/lib/security/cacerts");
-    		System.setProperty("javax.net.ssl.trustStorePassword", System.getenv("CACERTS_PASSWORD"));
+    		System.setProperty("javax.net.ssl.trustStorePassword", "PASSWORD");
         String code = request.getParameter("code");
         if (code != null) {
             code = URLDecoder.decode(code, "UTF-8");
@@ -109,13 +109,13 @@ public class ServerSideCallbacks extends HttpServlet{
         String outputStr =  "<html><head>\n" +
                 "<meta name=\"salesforce-community\" content=\""+ communityUrl +"\">\n" +
 //                "<meta name=\"salesforce-mode\" content=\""+ request.getParameter("mode") +"-callback\">\n" +
-				"<meta name=\"salesforce-mode\" content=\"" + System.getenv("SALESFORCE_MODE") + "-callback\">\n" +
+				"<meta name=\"salesforce-mode\" content=\"" + "modal" + "-callback\">\n" +
                 "<meta name=\"salesforce-server-callback\" content=\"true\">\n" +
                 "<meta name=\"salesforce-server-response\" content='" + 
                 Base64.getEncoder().encodeToString(identityJSON.toString().getBytes(StandardCharsets.UTF_8))+"'>\n" +
                 "<meta name=\"salesforce-server-starturl\" content='" + startURL +"'>\n" +
                 "<meta name=\"salesforce-target\" content= \"#salesforce-login\">\n"+
-                "<meta name=\"salesforce-allowed-domains\" content=\"" + System.getenv("SALESFORCE_HEROKUAPP_URL") + "\">\n" +
+                "<meta name=\"salesforce-allowed-domains\" content=\"" + "mojaembeddedlogin.herokuapp.com/ + "\">\n" +
                 "<script src=\""+ communityUrl +"/servlet/servlet.loginwidgetcontroller?type=javascript_widget\"" +
                 " async defer></script>\n" +
                 "</head><body></body></html>";
