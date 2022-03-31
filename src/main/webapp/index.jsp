@@ -9,9 +9,9 @@
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,600" type="text/css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 	
-    <meta name="salesforce-community" content="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers">
-    <meta name="salesforce-client-id" content="3MVG9t0sl2P.pByoe6WCijsMBjemkDzOofVQiX8Ac0uHa4.iTP.QOIZruxOmU4U7RwzmRB_6LLZa8KMMFXZbT">
-    <meta name="salesforce-redirect-uri" content="https://mojaembeddedlogin.herokuapp.com/_callback">
+    <meta name="salesforce-community" content="	https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/test">
+    <meta name="salesforce-client-id" content="3MVG9t0sl2P.pByoe6WCijsMBjW.ADHKCiJ1S_v4Xy4jNfuZCRGSMWqZbEZpE4SGwKv5zJsDNJ6AllLQziRMM">
+    <meta name="salesforce-redirect-uri" content="https://mojaembeddedlogin2.herokuapp.com/_callback">
     <meta name="salesforce-mode" content="modal">
     <meta name="salesforce-server-callback" content="true">
     <meta name="salesforce-namespace" content="">
@@ -22,8 +22,8 @@
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="false">"
-	<link href="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
-    <script src="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/Customers/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
+	<link href="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/test/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
+    <script src="https://minfdul-raccoon-whoa-developer-edition.eu44.force.com/test/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
   </head>
   
   <body>
