@@ -27,10 +27,10 @@ import java.util.Base64;
 public class ServerSideCallbacks extends HttpServlet{
 
 // Client ID
-    private static final String CLIENT_ID = "3MVG9t0sl2P.pByoe6WCijsMBjemkDzOofVQiX8Ac0uHa4.iTP.QOIZruxOmU4U7RwzmRB_6LLZa8KMMFXZbT";
+    private static final String CLIENT_ID = "3MVG9t0sl2P.pByoe6WCijsMBjW.ADHKCiJ1S_v4Xy4jNfuZCRGSMWqZbEZpE4SGwKv5zJsDNJ6AllLQziRMM";
 
 // client secret
-    private static final String CLIENT_SECRET = "F659DB4B1942D7014A569C9280C3D146432A73DBAF1B205FDF4FB62E43DD8E16";
+    private static final String CLIENT_SECRET = "F2D2FB8978C55498AD329C318315EB58D6CA0734B2829739E06CBED770603EEF";
     
     @Override
     public void init(ServletConfig config) throws ServletException {
